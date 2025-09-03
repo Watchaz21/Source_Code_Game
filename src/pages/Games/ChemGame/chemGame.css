@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Chakra Petch", serif;
+}
+
+.bg-default {
+    background: linear-gradient(180deg, #B2B7BD 0%, #FFFFFF 100%);
+  }
+
+  .bg-correct {
+    background: linear-gradient(180deg, #31C3A4 0%, #FFFFFF 100%);
+  }
+  
+  .bg-wrong {
+    background: linear-gradient(180deg, #F94F58 0%, #FFFFFF 100%);
+  }

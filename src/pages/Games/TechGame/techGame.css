@@ -1,0 +1,49 @@
+.TechContainer {
+    background: linear-gradient(180deg, #565D67 0%, #FFFFFF 100%);
+}
+
+.TechContainer .TechBox {
+
+    background: var(--Gray-Light, #B2B7BD);
+
+}
+
+.TechContainer .PlayerBoxContainer {
+    background: var(--Gray-Mid, #565D67);
+}
+
+.TechContainer .PlayerBoxContainer .PlayerBox {
+    background: #D9D9D9;
+}
+
+.TechContainer .TechBox .Qbg {
+    background: var(--Gray-Dark, #222832);
+}
+
+.TechContainer .TechBox .Qbg .Qtext {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #1EFC2D;
+}
+
+.MobileScreen {
+    background: linear-gradient(180deg, #565D67 0%, #FFFFFF 100%);
+
+}
+
+.Shadow {
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+}
+
+.MobileScreen .Ctext {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}

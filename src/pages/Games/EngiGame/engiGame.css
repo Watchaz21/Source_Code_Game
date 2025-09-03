@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+.EngiContainer {
+    background: linear-gradient(180deg, #565D67 0%, #FFFFFF 100%);
+}
+
+.EngiContainer .EngiBox {
+
+    background: var(--Gray-Light, #B2B7BD);
+
+}
+
+.EngiContainer .LightOn {
+
+    box-shadow: 0px 0px 0.58px 0px #FFFFC3;
+
+    box-shadow: 0px 0px 1.15px 0px #FFFFC3;
+
+    box-shadow: 0px 0px 4.03px 0px #FFFFC3;
+
+    box-shadow: 0px 0px 8.06px 0px #FFD101;
+
+    box-shadow: 0px 0px 13.82px 0px #FFD101;
+
+    box-shadow: 0px 0px 24.19px 0px #FFD101;
+
+    width: 168;
+    height: 168;
+    border-radius: 10px;
+    background: #FFFFC3;
+
+
+
+}
+
+.EngiContainer .LightOff {
+
+
+    width: 168;
+    height: 168;
+    border-radius: 10px;
+    background: #DBB300;
+
+
+}
+
+.ShadowI {
+
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+
+}
+
+.EngiContainer .PlayerBoxContainer {
+    background: var(--Gray-Mid, #565D67);
+}
+
+.EngiContainer .PlayerBoxContainer .PlayerBox {
+    background: #D9D9D9;
+}
+
+.MobileScreen {
+    background: linear-gradient(180deg, #565D67 0%, #FFFFFF 100%);
+
+}
+
+.CorrectbgScreen {
+    background: linear-gradient(180deg, #565D67 0%, #31C3A4 100%);
+
+}
+
+.InCorrectbgScreen {
+    background: linear-gradient(180deg, #565D67 0%, #F94F58 100%);
+
+}
+
+.MobileSrceen .AnswerBox {
+    background: var(--Check-Correct, #31C3A4);
+}
+
+.NoteColor {
+    color: #F48548;
+    font-family: "Rock Salt", sans-serif;
+}

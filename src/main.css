@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gray-light: #B2B7BD;
+    --color-gray-mid: #565D67;
+    --color-gray-dark: #222832;
+
+    --color-pro-red: #F94F58;
+    --color-pro-green: #31C3A4;
+    --color-pro-blue: #5E9CE5;
+    --color-pro-yellow: #FEC062;
+    --color-pro-orange: #F48548;
+    --color-pro-pink: #D27ADA;
+    --color-pro-purple: #8970F5;
+}
+
+* {
+    font-family: "Chakra Petch", serif;
+}
+
+.Bg-mid {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), white);
+}
+
+.Bg-light {
+    background-image: linear-gradient(to bottom, var(--color-gray-light), white);
+}
+
+.Bg-mid-wrong {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-red));
+}
+
+.Bg-mid-correct {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-green));
+}
+
+.Bg-light-wrong {
+    background-image: linear-gradient(to bottom, var(--color-pro-red), white);
+}
+
+.Bg-light-correct {
+    background-image: linear-gradient(to bottom, var(--color-pro-green), white);
+}
+
+.Bg-phy {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-yellow));
+}
+
+.Bg-engi {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-orange));
+}
+
+.Bg-tech1 {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-blue));
+}
+
+.Bg-math {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-pink));
+}
+
+.Bg-chem {
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), var(--color-pro-purple));
+}
+
+
+/*-------------------------PLAYROOM KIT DESKTOP LOBBY-------------------------*/
+.create-room-modal {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/*-------------------------PLAYROOM KIT MOBILE LOBBY-------------------------*/
+.modal-container.fullscreen.modal-container #popup {
+    /* background-image: none !important; */
+    background-image: linear-gradient(to bottom, var(--color-gray-mid), white) !important;
+    background-color: var(--color-gray-mid) !important;
+}
+
+.platform .profilecontainer {
+    /* background: linear-gradient(0deg, #565D67, #5E9CE5) !important; */
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* .platform .avatar-photo {
+    border-radius: 10px !important;
+    margin-bottom: 50px;
+} */
+
+.platform .avatar-photo {
+    width: 20rem;
+    /* zoomed in - increase size */
+    height: 20rem;
+    /* zoomed in - increase size */
+    background-size: 100% !important;
+    /* better zoom effect */
+    background-position: top !important;
+    /* center the image */
+    background-repeat: no-repeat;
+
+    border-radius: 10px !important;
+    margin-bottom: 50px;
+}
+
+.platform .input-name {
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+.button-black {
+    border-radius: 10px !important;
+    font-size: 24px !important;
+    background-color: var(--color-gray-mid) !important;
+    color: white !important;
+    box-shadow: none !important;
+    border: 2px solid var(--color-gray-mid) !important;
+}
+
+.player-avatar-strip .player-score-container {
+    border-radius: 10px !important;
+}
+
+.player-avatar-strip .avatar-holder {
+    border-radius: 8px !important;
+    /* Rounded corners */
+    border-width: 2px !important;
+    /* Border thickness */
+
+    background-size: 250% !important;
+    /* Zoom into background image */
+    background-position: top !important;
+    /* Focus the zoom at the top of the image */
+    background-position-x: 40% !important;
+
+}
