@@ -7,7 +7,7 @@ function Mathanswer() {
   const size = 400;
   const center = size / 2;
   const radius = 165;
-  const arrow = 31;
+  const arrow = 30;
 
   // เปลี่ยนเป็น % และ auto เพื่อ responsive
   const boxWidth = "22%";   // กว้าง 22% ของ container
