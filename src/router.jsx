@@ -1,3 +1,4 @@
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './main.css'
@@ -9,16 +10,21 @@ import Menu from './pages/Menu/Menu';
 import { GameEngineProvider } from './hooks/useGameEngine';
 import Lobby from './pages/Lobby/Lobby';
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Menu />
+    },
+    {
+      path: "/lobby",
+      element: <Lobby />
+    },
+  ],
   {
-    path: "/",
-    element: <Menu />
-  },
-  {
-    path: "/lobby",
-    element: <Lobby />
-  },
-]);
+    basename: "/Source_Code_Game",
+  }
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,4 +32,4 @@ createRoot(document.getElementById('root')).render(
       <RouterProvider router={router} />
     </GameEngineProvider>
   </StrictMode>,
-)
+);
